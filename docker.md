@@ -1,5 +1,5 @@
 # Detached versus foreground mode
-
+# Dependency Injection in Dot net core
 When you start a container you should be able to decide if you want your container to run in a detached mode or foreground mode. In detached mode, which is the default option, the container exits as soon as the root process that was used to run the container exits. For example, the following command can be used to run a container in detached mode:
 
     docker run -d microsoft/iis powershell
