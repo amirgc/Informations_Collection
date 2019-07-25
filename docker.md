@@ -8,3 +8,11 @@ In foreground mode, when the -d option is not specified and with the -it flag th
 An example for this is as follows:
 
     docker run -it microsoft/iis powershell 
+
+**run image of dot net core**
+
+docker run --rm -it microsoft/dotnet:2.1-runtime dotnet
+
+**mount folder from host to container**
+
+docker run --rm -it -v %cd%:/var/api microsoft/dotnet:2.1-runtime
